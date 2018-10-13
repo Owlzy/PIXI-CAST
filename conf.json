@@ -1,0 +1,40 @@
+{
+    "applicationName": "pixi-cast",
+    "disqus": "",
+    "googleAnalytics": "",
+    "openGraph": {
+        "title": "",
+        "type": "website",
+        "image": "",
+        "site_name": "",
+        "url": ""
+    },
+    "meta": {
+        "title": "",
+        "description": "",
+        "keyword": ""
+    },
+    "linenums": true,
+    "source": {
+        "include": [
+            "./src/"
+        ],
+        "includePattern": ".+\\.js(doc)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+    "plugins": ["./node_modules/@pixi/jsdoc-template/plugins/es6-fix"],
+    "opts": {
+        "encoding": "utf8",
+        "recurse": true,
+        "private": false,
+        "lenient": true,
+        "destination": "./docs",
+        "template": "./node_modules/jaguarjs-jsdoc"
+    },
+    "templates": {
+    "cleverLinks": true,
+    "default": {
+        "outputSourceFiles": true
+        }
+    }
+}
