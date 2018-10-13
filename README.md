@@ -16,5 +16,5 @@ webpack --watch
 to build:
 webpack 
 
-# Source
+# Credits
 https://lodev.org/cgtutor/raycasting.html
