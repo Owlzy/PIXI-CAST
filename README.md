@@ -1,4 +1,4 @@
-# pixi-cast
+# PIXI-CAST
 Simple PIXI.js raycast engine
 
 A simple raycast engine using PIXI.js that includes rendering of sprites. 
